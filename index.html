@@ -3,341 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dudul - Portfolio</title>
+    <meta name="description" content="Portofolio Dudul, mahasiswa Sistem Informasi yang fokus pada AI, web development, dan networking.">
+    <title>Dudul - Portofolio</title>
     <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <div class="logo-container">
-                    <img src="assets/logo.png" alt="Dudul Logo" class="navbar-logo">
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link active">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+    <nav class="navbar" aria-label="Navigasi utama">
+        <div class="container nav-wrapper">
+            <a class="brand" href="#home" aria-label="Kembali ke awal">
+                <img src="assets/logo.png" alt="Logo Dudul" class="navbar-logo">
+                <span>Dudul</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="hamburger" type="button" aria-label="Buka menu" aria-controls="nav-menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="stars"></div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="profile-image-container">
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">AI, Web, dan Networking</p>
+                    <h1>Dudul</h1>
+                    <p class="hero-subtitle">Mahasiswa Sistem Informasi yang membangun agen AI, website, dan jaringan internet yang rapi.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Lihat Projek</span>
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Hubungi Saya</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-panel" aria-label="Profil Dudul">
                     <div class="profile-image-wrapper">
-                        <div class="profile-ring"></div>
                         <img src="assets/logo.png" alt="Dudul" class="profile-img">
                     </div>
-                </div>
-                <h1 class="hero-title">
-                    <span class="gradient-text">Halo, Saya Dudul</span>
-                </h1>
-                <p class="hero-subtitle">AI Developer • Web Developer • Networking Enthusiast</p>
-                <p class="hero-description">
-                    Mahasiswa ITB Stikom Bali yang passionate tentang AI Development, Web Development, dan Networking. 
-                    Aktif di organisasi dan terus belajar teknologi baru.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <span>Lihat Projek</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span>Hubungi Saya</span>
-                    </a>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <span>Scroll untuk lanjut</span>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>Tentang Saya</h2>
-                <div class="header-line"></div>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Dudul</h3>
-                    <p>
-                        Saya adalah seorang mahasiswa dari <strong>ITB Stikom Bali</strong> yang memiliki passion 
-                        tinggi dalam bidang teknologi, khususnya AI Development, Web Development, dan Networking.
-                    </p>
-                    <p>
-                        Saya aktif dalam organisasi sebagai <strong>Anggota Komisi 2 (Hukum & Advokasi)</strong> di 
-                        Dewan Perwakilan Mahasiswa, yang membantu saya mengembangkan soft skills dan leadership.
-                    </p>
-                    <p>
-                        Melalui pengalaman praktis dan pembelajaran berkelanjutan, saya terus mengembangkan keahlian 
-                        dalam membangun solusi teknologi yang inovatif dan bermanfaat.
-                    </p>
-                    <p class="text-small">Alumni SMK Pariwisata Harapan dengan latar belakang di bidang multimedia — berpengalaman dalam desain grafis, produksi konten multimedia, dan pengelolaan media digital.</p>
-                </div>
-                
-                <div class="education-experience">
-                    <div class="card card-education">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4>Pendidikan</h4>
-                        <p><strong>ITB Stikom Bali</strong></p>
-                        <p class="text-small">Jurusan: Sistem Informasi</p>
-                        <p class="text-small">Mahasiswa aktif</p>
-                    </div>
-
-                    <div class="card card-education">
-                        <i class="fas fa-school"></i>
-                        <h4>Sekolah</h4>
-                        <p><strong>SMK Pariwisata Harapan</strong></p>
-                        <p class="text-small">Jurusan: Multimedia</p>
-                    </div>
-                    
-                    <div class="card card-experience">
-                        <i class="fas fa-users"></i>
-                        <h4>Organisasi</h4>
-                        <p><strong>Komisi 2 DPM</strong></p>
-                        <p class="text-small">Hukum & Advokasi</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Keahlian & Minat</h2>
-                <div class="header-line"></div>
-            </div>
-            
-            <div class="skills-grid">
-                <!-- AI Development -->
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI Development</h3>
-                    <p>Membuat AI Agents yang terintegrasi dengan berbagai platform seperti Telegram</p>
-                    <div class="skill-tags">
-                        <span class="tag">AI Agents</span>
-                        <span class="tag">LLM Integration</span>
-                        <span class="tag">Python</span>
-                    </div>
-                </div>
-
-                <!-- Web Development -->
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Membangun website modern dengan HTML, CSS, JavaScript dan framework terkini</p>
-                    <div class="skill-tags">
-                        <span class="tag">HTML/CSS</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">Responsive</span>
-                    </div>
-                </div>
-
-                <!-- Networking -->
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3>Networking</h3>
-                    <p>Merancang dan membangun jaringan internet yang terstruktur dan efisien</p>
-                    <div class="skill-tags">
-                        <span class="tag">Network Design</span>
-                        <span class="tag">Infrastructure</span>
-                        <span class="tag">Configuration</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Projek yang Pernah Dibuat</h2>
-                <div class="header-line"></div>
-            </div>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Jaringan Internet Terstruktur</h3>
-                        <p>
-                            Merancang dan membangun jaringan internet yang terstruktur dan scalable untuk 
-                            mendukung operasional usaha orang tua dengan performa optimal.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">Networking</span>
-                            <span class="tag">Infrastructure</span>
-                            <span class="tag">Configuration</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Detail
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Agen Telegram Integration</h3>
-                        <p>
-                            Mengembangkan AI Agent yang terintegrasi seamlessly dengan aplikasi Telegram 
-                            untuk memberikan pengalaman percakapan yang intelligent dan responsif.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">AI</span>
-                            <span class="tag">Telegram Bot</span>
-                            <span class="tag">Python</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Detail
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>
-                            Website portfolio personal yang responsif dan modern dengan animasi menarik. 
-                            Showcase keahlian dan projek yang telah dikerjakan.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">Web Development</span>
-                            <span class="tag">HTML/CSS</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/agent_dudul" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
+                    <div class="profile-details">
+                        <h2>Halo, saya Dudul</h2>
+                        <p>ITB Stikom Bali</p>
+                        <div class="profile-tags">
+                            <span>AI Agent</span>
+                            <span>Web</span>
+                            <span>Network</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Hubungi Saya</h2>
-                <div class="header-line"></div>
+        <section id="about" class="about section-band">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Tentang</p>
+                    <h2>Tentang Saya</h2>
+                </div>
+
+                <div class="about-layout">
+                    <div class="about-text">
+                        <h3>Fokus belajar dan membangun solusi yang benar-benar kepakai.</h3>
+                        <p>Saya mahasiswa ITB Stikom Bali dengan minat kuat di AI Development, Web Development, dan Networking. Saya senang menghubungkan ide praktis dengan teknologi yang bisa dipakai sehari-hari.</p>
+                        <p>Saya juga aktif sebagai anggota Komisi 2 (Hukum & Advokasi) di Dewan Perwakilan Mahasiswa. Dari sana saya belajar komunikasi, tanggung jawab, dan cara melihat masalah dari sisi manusia.</p>
+                        <p>Bekal multimedia dari SMK Pariwisata Harapan membantu saya memahami desain grafis, produksi konten, dan pengelolaan media digital.</p>
+                    </div>
+
+                    <div class="timeline">
+                        <article class="info-card">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            <div>
+                                <h4>ITB Stikom Bali</h4>
+                                <p>Sistem Informasi, mahasiswa aktif.</p>
+                            </div>
+                        </article>
+                        <article class="info-card">
+                            <i class="fas fa-school" aria-hidden="true"></i>
+                            <div>
+                                <h4>SMK Pariwisata Harapan</h4>
+                                <p>Jurusan Multimedia.</p>
+                            </div>
+                        </article>
+                        <article class="info-card">
+                            <i class="fas fa-users" aria-hidden="true"></i>
+                            <div>
+                                <h4>Komisi 2 DPM</h4>
+                                <p>Hukum & Advokasi.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
-            
-            <div class="contact-content">
-                <p class="contact-intro">
-                    Tertarik untuk berkolaborasi atau ingin mengetahui lebih tentang projek saya? 
-                    Silakan hubungi saya melalui saluran di bawah ini!
-                </p>
+        </section>
 
-                <div class="contact-methods">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-instagram"></i>
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Keahlian</p>
+                    <h2>Keahlian & Minat</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <i class="fas fa-brain" aria-hidden="true"></i>
+                        <h3>AI Development</h3>
+                        <p>Membangun AI Agent yang terhubung ke Telegram dan kebutuhan otomasi harian.</p>
+                        <div class="tag-list">
+                            <span>AI Agents</span>
+                            <span>LLM</span>
+                            <span>Python</span>
                         </div>
-                        <h4>Instagram</h4>
-                        <p>@agent_dudul</p>
-                        <a href="https://instagram.com/agent_dudul" target="_blank" class="contact-link">
-                            Kunjungi <i class="fas fa-arrow-right"></i>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        <h3>Web Development</h3>
+                        <p>Membuat website statis yang cepat, responsif, dan mudah dipublikasikan.</p>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fas fa-network-wired" aria-hidden="true"></i>
+                        <h3>Networking</h3>
+                        <p>Merancang jaringan internet yang terstruktur untuk kebutuhan rumah dan usaha.</p>
+                        <div class="tag-list">
+                            <span>MikroTik</span>
+                            <span>Infrastructure</span>
+                            <span>Monitoring</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section-band">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Projek</p>
+                    <h2>Projek yang Pernah Dibuat</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-media">
+                            <i class="fas fa-network-wired" aria-hidden="true"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Jaringan Internet Terstruktur</h3>
+                            <p>Perancangan jaringan internet yang lebih rapi dan mudah dipantau untuk mendukung operasional usaha keluarga.</p>
+                            <div class="tag-list">
+                                <span>Networking</span>
+                                <span>MikroTik</span>
+                                <span>Infrastructure</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <i class="fas fa-robot" aria-hidden="true"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Agent Telegram</h3>
+                            <p>Eksperimen agen AI yang bisa diakses lewat Telegram untuk membantu pekerjaan dan percakapan harian.</p>
+                            <div class="tag-list">
+                                <span>AI</span>
+                                <span>Telegram</span>
+                                <span>Automation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <i class="fas fa-globe" aria-hidden="true"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Website portofolio personal yang ringan, responsif, dan siap di-host gratis lewat GitHub Pages.</p>
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>GitHub Pages</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Kontak</p>
+                    <h2>Hubungi Saya</h2>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-copy">
+                        <h3>Terbuka untuk belajar, kolaborasi, dan projek kecil yang menarik.</h3>
+                        <p>Silakan hubungi lewat kanal di bawah ini. Saya paling aktif di Instagram dan TikTok.</p>
+                    </div>
+
+                    <div class="contact-methods">
+                        <a class="contact-item" href="https://instagram.com/agent_dudul" target="_blank" rel="noreferrer">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                            <strong>@agent_dudul</strong>
                         </a>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-tiktok"></i>
-                        </div>
-                        <h4>TikTok</h4>
-                        <p>@agent_dudul</p>
-                        <a href="https://tiktok.com/@agent_dudul" target="_blank" class="contact-link">
-                            Kunjungi <i class="fas fa-arrow-right"></i>
+                        <a class="contact-item" href="https://tiktok.com/@agent_dudul" target="_blank" rel="noreferrer">
+                            <i class="fab fa-tiktok" aria-hidden="true"></i>
+                            <span>TikTok</span>
+                            <strong>@agent_dudul</strong>
                         </a>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <h4>Email</h4>
-                        <p>dudul@example.com</p>
-                        <a href="mailto:dudul@example.com" class="contact-link">
-                            Kirim Email <i class="fas fa-arrow-right"></i>
+                        <a class="contact-item" href="https://github.com/frengky21" target="_blank" rel="noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                            <strong>frengky21</strong>
                         </a>
                     </div>
                 </div>
-
-                <div class="cta-box">
-                    <h3>Siap Untuk Kolaborasi?</h3>
-                    <p>Mari kita ciptakan sesuatu yang luar biasa bersama!</p>
-                    <a href="mailto:dudul@example.com" class="btn btn-primary">
-                        <span>Mulai Percakapan</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </a>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-            <p>&copy; Dudul</p>
-                <div class="footer-social">
-                    <a href="https://github.com/agent_dudul" target="_blank" class="footer-icon">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Dudul</p>
+            <a href="#home" class="back-to-top" aria-label="Kembali ke atas">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
         </div>
     </footer>
 
