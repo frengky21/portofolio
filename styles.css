@@ -401,6 +401,32 @@ section {
     color: var(--gold);
 }
 
+.org-photo-card {
+    overflow: hidden;
+    border: 1px solid rgba(244, 239, 227, 0.11);
+    border-radius: 8px;
+    background: rgba(32, 39, 31, 0.72);
+}
+
+.org-photo-card a,
+.org-photo-card img {
+    display: block;
+}
+
+.org-photo-card img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.org-photo-card figcaption {
+    padding: 14px 16px 16px;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
 .skills-grid,
 .projects-grid {
     display: grid;
