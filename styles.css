@@ -388,6 +388,19 @@ section {
     color: var(--muted);
 }
 
+.info-card a {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--teal);
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+.info-card a:hover {
+    color: var(--gold);
+}
+
 .skills-grid,
 .projects-grid {
     display: grid;
