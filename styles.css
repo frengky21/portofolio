@@ -575,6 +575,15 @@ section {
     object-position: left center;
 }
 
+.wide-shot {
+    grid-column: span 2;
+    min-height: 280px;
+}
+
+.wide-shot img {
+    object-position: center top;
+}
+
 .contact-item {
     display: grid;
     grid-template-columns: 42px 1fr;
@@ -747,6 +756,10 @@ section {
 
     .social-shot {
         min-height: 210px;
+    }
+
+    .wide-shot {
+        grid-column: auto;
     }
 
     .profile-shot {
