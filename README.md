@@ -56,10 +56,10 @@ Mengembangkan AI Agent yang terintegrasi seamlessly dengan aplikasi Telegram unt
 - **Skills**: AI/ML, Telegram Bot API, Python
 - **Features**: Natural Language Processing, Context Awareness
 
-### 3. Portfolio Website (Project ini)
-Website portfolio personal yang responsif dan modern dengan animasi menarik.
-- **Skills**: Web Development, UI/UX Design, Animation
-- **Features**: Smooth Animations, Responsive Design, Modern Design
+### 3. Simulasi Sistem Informasi Usaha
+Membangun simulasi sistem informasi usaha yang efisien menggunakan Raspberry Pi 400 sebagai server lokal.
+- **Skills**: Raspberry Pi, Server Management, System Design
+- **Features**: Local Server Deployment, Inventory Management Simulation, Responsive UI
 
 ## 🚀 Fitur Website
 
