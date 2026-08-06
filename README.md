@@ -56,11 +56,6 @@ Mengembangkan AI Agent yang terintegrasi seamlessly dengan aplikasi Telegram unt
 - **Skills**: AI/ML, Telegram Bot API, Python
 - **Features**: Natural Language Processing, Context Awareness
 
-### 3. Simulasi Sistem Informasi Usaha
-Membangun simulasi sistem informasi usaha yang efisien menggunakan Raspberry Pi 400 sebagai server lokal.
-- **Skills**: Raspberry Pi, Server Management, System Design
-- **Features**: Local Server Deployment, Inventory Management Simulation, Responsive UI
-
 ## 🚀 Fitur Website
 
 ✨ **Animasi Smooth**
