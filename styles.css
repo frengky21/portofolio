@@ -347,16 +347,6 @@ section {
     pointer-events: none;
 }
 
-.profile-panel::after {
-    content: "AI / WEB / NETWORK";
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    color: rgba(95, 227, 211, 0.62);
-    font-size: 0.68rem;
-    font-weight: 900;
-}
-
 .profile-image-wrapper {
     position: relative;
     width: min(100%, 330px);
