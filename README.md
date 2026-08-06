@@ -20,6 +20,7 @@ Saya adalah **Dudul**, mahasiswa dari **ITB Stikom Bali** yang passionate tentan
 ### 📱 Hubungi Saya
 - **Instagram**: [@agent_dudul](https://instagram.com/agent_dudul)
 - **TikTok**: [@agent_dudul](https://tiktok.com/@agent_dudul)
+- **WhatsApp**: [+62 895-2969-7022](https://wa.me/6289529697022)
 - **Email**: dudul@example.com
 
 ## 🛠️ Skills
@@ -213,6 +214,7 @@ Update semua informasi di file `index.html`:
 
 Jika ada pertanyaan atau feedback tentang portfolio ini:
 - 📧 Email: dudul@example.com
+- 💬 WhatsApp: [+62 895-2969-7022](https://wa.me/6289529697022)
 - 📱 Instagram: [@agent_dudul](https://instagram.com/agent_dudul)
 - 📱 TikTok: [@agent_dudul](https://tiktok.com/@agent_dudul)
 - 💬 GitHub Issues: [Create an issue](https://github.com/agent_dudul/portfolio-dudul/issues)
