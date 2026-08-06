@@ -22,27 +22,31 @@ Saya adalah **Dudul**, mahasiswa dari **ITB Stikom Bali** yang passionate tentan
 - **TikTok**: [@agent_dudul](https://tiktok.com/@agent_dudul)
 - **Email**: dudul@example.com
 
-## 🛠️ Keahlian & Minat
+## 🛠️ Skills
 
-### AI Development
-- AI Agents & LLM Integration
-- Telegram Bot Development
-- Python Programming
-
-### Web Development
-- HTML5, CSS3, JavaScript
-- Responsive Design
-- Modern UI/UX
+### AI & Machine Learning
+- AI Agent Development
+- Prompt Engineering
+- LLM Integration
+- Automation Workflows
 
 ### Networking
-- Network Design & Architecture
-- Infrastructure Configuration
-- Network Security Basics
+- Network Infrastructure
+- Hotspot Management
+- MikroTik
+- Internet Sharing
 
-### Hosting & DevOps
-- Cloud Hosting Platforms
-- Website Deployment
-- DevOps Basics
+### Web Development
+- React
+- Node.js
+- HTML/CSS
+- Database Design
+
+### Creative Content
+- Short-form Video
+- Instagram Reels
+- TikTok Content
+- Copywriting
 
 ## 📂 Proyek yang Pernah Dibuat
 
