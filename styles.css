@@ -1123,22 +1123,30 @@ section {
 }
 
 
+
+
+/* Inline content summary inside About: match dark green + gold portfolio theme */
 .content-inline {
     margin-top: 1.5rem;
-    padding: 1.25rem;
-    border-radius: 1.25rem;
-    background: rgba(59, 130, 246, 0.08);
-    border: 1px solid rgba(59, 130, 246, 0.16);
+    padding: 1.35rem;
+    border-radius: 18px;
+    background:
+        linear-gradient(135deg, rgba(216, 168, 77, 0.09), rgba(47, 174, 148, 0.08)),
+        var(--panel-strong);
+    border: 1px solid rgba(216, 168, 77, 0.22);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
 }
 
 .content-inline h4 {
     margin: 0 0 0.65rem;
     font-size: 1.05rem;
-    color: var(--heading-color, #111827);
+    color: var(--gold);
+    letter-spacing: -0.01em;
 }
 
 .content-inline p {
     margin-bottom: 1rem;
+    color: var(--muted);
 }
 
 .content-inline-grid {
@@ -1151,10 +1159,15 @@ section {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
-    padding: 0.55rem 0.75rem;
+    padding: 0.55rem 0.78rem;
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(15, 23, 42, 0.08);
+    color: var(--text);
+    background: rgba(10, 15, 13, 0.58);
+    border: 1px solid rgba(95, 227, 211, 0.2);
     font-size: 0.88rem;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.content-inline-grid i {
+    color: var(--cyan);
 }
