@@ -1,0 +1,26 @@
+
+# AgentDudul managed exclusions: secrets, runtime state, backups, generated files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+.session-secret
+*session-secret
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.pid
+*.bak*
+*.backup*
+backups/
+dist.backup*/
+.next/
+node_modules/
+.venv/
+venv/
+__pycache__/
