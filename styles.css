@@ -427,26 +427,6 @@ section {
     margin-bottom: 13px;
 }
 
-.content-inline-note {
-    margin-top: 1.1rem;
-    color: var(--muted);
-    font-size: 0.92rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.content-inline-note a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.content-inline-note a:hover {
-    text-decoration: underline;
-}
-
 .timeline {
     display: grid;
     gap: 12px;
@@ -709,49 +689,6 @@ section {
 .project-links a:hover {
     border-color: var(--accent);
     color: var(--accent);
-}
-
-.ai-agent-shots {
-    display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
-    gap: 10px;
-    padding: 10px;
-    align-items: stretch;
-    background: var(--bg-soft);
-    border-bottom: 1px solid var(--border);
-}
-
-.ai-agent-shots a {
-    position: relative;
-    min-width: 0;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    color: var(--text);
-    text-decoration: none;
-    background: var(--panel-strong);
-}
-
-.ai-agent-shots img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: top center;
-}
-
-.ai-agent-shots span {
-    position: absolute;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    padding: 6px 8px;
-    border-radius: var(--radius);
-    background: rgba(10, 14, 15, 0.86);
-    font-family: var(--mono);
-    font-size: 0.74rem;
-    font-weight: 700;
-    text-align: center;
 }
 
 /* Contact */
