@@ -5,9 +5,8 @@ const sections = document.querySelectorAll("main section[id]");
 const year = document.querySelector("#year");
 const hero = document.querySelector(".hero");
 const animatedItems = document.querySelectorAll(
-    ".section-header, .about-text, .info-card, .org-photo-card, .skill-card, .project-card, .content-copy, .social-shot, .contact-copy, .contact-item"
+    ".section-header, .about-text, .info-card, .org-photo-card, .skill-card, .project-card, .contact-copy, .contact-item"
 );
-const profilePanel = document.querySelector(".profile-panel");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 if (year) {
@@ -99,32 +98,6 @@ if (!reduceMotion) {
     );
 
     animatedItems.forEach((item) => revealObserver.observe(item));
-
-    profilePanel?.addEventListener("pointermove", (event) => {
-        const rect = profilePanel.getBoundingClientRect();
-        const x = (event.clientX - rect.left) / rect.width - 0.5;
-        const y = (event.clientY - rect.top) / rect.height - 0.5;
-
-        profilePanel.style.transform = `translateY(-6px) rotateX(${y * -4}deg) rotateY(${x * 5}deg)`;
-    });
-
-    profilePanel?.addEventListener("pointerleave", () => {
-        profilePanel.style.transform = "";
-    });
-
-    hero?.addEventListener("pointermove", (event) => {
-        const rect = hero.getBoundingClientRect();
-        const x = (event.clientX - rect.left) / rect.width - 0.5;
-        const y = (event.clientY - rect.top) / rect.height - 0.5;
-
-        hero.style.setProperty("--pointer-x", `${x * -14}px`);
-        hero.style.setProperty("--pointer-y", `${y * -10}px`);
-    });
-
-    hero?.addEventListener("pointerleave", () => {
-        hero.style.setProperty("--pointer-x", "0px");
-        hero.style.setProperty("--pointer-y", "0px");
-    });
 }
 
 console.log("Halo! Terima kasih sudah mengunjungi portofolio Dudul.");

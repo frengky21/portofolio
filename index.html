@@ -7,6 +7,9 @@
     <title>Dudul - Portofolio</title>
     <link rel="icon" type="image/png" href="assets/profile-logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,15 +17,15 @@
         <div class="container nav-wrapper">
             <a class="brand" href="#home" aria-label="Kembali ke awal">
                 <img src="assets/profile-logo.png" alt="Logo Dudul" class="navbar-logo">
-                <span>Dudul</span>
+                <span>~/dudul</span>
             </a>
 
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#home" class="nav-link active">home</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#skills" class="nav-link">skills</a></li>
+                <li><a href="#projects" class="nav-link">projects</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
             </ul>
 
             <button class="hamburger" type="button" aria-label="Buka menu" aria-controls="nav-menu" aria-expanded="false">
@@ -35,31 +38,37 @@
 
     <main>
         <section id="home" class="hero">
-            <div class="hero-bg" aria-hidden="true"></div>
             <div class="container hero-grid">
                 <div class="hero-copy">
-                    <p class="eyebrow">MAHASISWA SISTEM INFORMASI</p>
-                    <h1>agent_dudul</h1>
-                    <p class="hero-subtitle">Mahasiswa ITB STIKOM Bali jurusan Sistem Informasi yang passionate di AI development, Networking, dan web development. Aktif di organisasi kemahasiswaan dan mantan content creator TikTok & Instagram.</p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">
-                            <span>Lihat Projek</span>
-                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <span>Hubungi Saya</span>
-                        </a>
-                    </div>
-                    <div class="hero-socials" aria-label="Media sosial" style="display: none;">
-                        <a href="https://instagram.com/agent_dudul" target="_blank" rel="noreferrer" aria-label="Instagram agent_dudul">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://tiktok.com/@agent_dudul" target="_blank" rel="noreferrer" aria-label="TikTok agent_dudul">
-                            <i class="fab fa-tiktok" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/frengky21" target="_blank" rel="noreferrer" aria-label="GitHub frengky21">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                        </a>
+                    <div class="terminal-card">
+                        <div class="terminal-bar">
+                            <span>dudul@itbstikom: ~</span>
+                            <span>zsh</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="prompt-line"><span class="prompt-user">dudul@itbstikom</span><span>:~$ whoami</span></p>
+                            <h1>agent_dudul<span class="cursor" aria-hidden="true"></span></h1>
+                            <p class="hero-subtitle">Mahasiswa ITB STIKOM Bali jurusan Sistem Informasi yang fokus di AI development, networking, dan web development. Aktif di organisasi kemahasiswaan dan mantan content creator TikTok & Instagram.</p>
+                            <div class="hero-actions">
+                                <a href="#projects" class="btn btn-primary">
+                                    <span>cd ./projects</span>
+                                </a>
+                                <a href="#contact" class="btn btn-secondary">
+                                    <span>Hubungi Saya</span>
+                                </a>
+                            </div>
+                            <div class="hero-socials" aria-label="Media sosial">
+                                <a href="https://instagram.com/agent_dudul" target="_blank" rel="noreferrer" aria-label="Instagram agent_dudul">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://tiktok.com/@agent_dudul" target="_blank" rel="noreferrer" aria-label="TikTok agent_dudul">
+                                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://github.com/frengky21" target="_blank" rel="noreferrer" aria-label="GitHub frengky21">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -77,11 +86,6 @@
                             <span>Content Creator</span>
                             <span>Advokasi Mahasiswa</span>
                         </div>
-                        <div class="signal-meter" aria-hidden="true">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +94,7 @@
         <section id="about" class="about section-band">
             <div class="container">
                 <div class="section-header">
-                    <p class="eyebrow">About</p>
+                    <p class="eyebrow">about</p>
                     <h2>Tentang Saya</h2>
                 </div>
 
@@ -147,7 +151,7 @@
         <section id="skills" class="skills">
             <div class="container">
                 <div class="section-header">
-                    <p class="eyebrow">Skills</p>
+                    <p class="eyebrow">skills</p>
                     <h2>Keahlian & Minat</h2>
                 </div>
 
@@ -165,18 +169,6 @@
                     </article>
 
                     <article class="skill-card">
-                        <i class="fas fa-network-wired" aria-hidden="true"></i>
-                        <h3>Networking</h3>
-                        <p>Merancang dan mengelola jaringan internet untuk kebutuhan rumah, usaha, dan server lokal.</p>
-                        <div class="tag-list">
-                            <span>Network Infrastructure</span>
-                            <span>Hotspot Management</span>
-                            <span>MikroTik</span>
-                            <span>Internet Sharing</span>
-                        </div>
-                    </article>
-
-                    <article class="skill-card">
                         <i class="fas fa-code" aria-hidden="true"></i>
                         <h3>Web Development</h3>
                         <p>Membangun website dan aplikasi web yang responsif, terstruktur, dan mudah dikembangkan.</p>
@@ -185,6 +177,18 @@
                             <span>Node.js</span>
                             <span>HTML/CSS</span>
                             <span>Database Design</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fas fa-network-wired" aria-hidden="true"></i>
+                        <h3>Networking</h3>
+                        <p>Merancang dan mengelola jaringan internet untuk kebutuhan rumah, usaha, dan server lokal.</p>
+                        <div class="tag-list">
+                            <span>Network Infrastructure</span>
+                            <span>Hotspot Management</span>
+                            <span>MikroTik</span>
+                            <span>Internet Sharing</span>
                         </div>
                     </article>
 
@@ -206,14 +210,18 @@
         <section id="projects" class="projects section-band">
             <div class="container">
                 <div class="section-header">
-                    <p class="eyebrow">Projects</p>
+                    <p class="eyebrow">projects</p>
                     <h2>Proyek Pilihan</h2>
                 </div>
 
                 <div class="projects-grid">
-                    <article class="project-card featured-project">
-                        <div class="project-media project-screenshot"><img src="assets/projects/aspirasi-preview.png" alt="Tangkapan layar website aspirasi mahasiswa" loading="lazy"></div>
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/aspirasi-komisi2</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>LIVE</span>
+                        </div>
                         <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#website</span></div>
                             <h3>website aspirasi mahasiswa</h3>
                             <p>Platform aspirasi mahasiswa untuk Komisi 2 Hukum & Advokasi DPM ITB STIKOM Bali: form publik, SOP, panel admin, status tindak lanjut, kategori aspirasi, dan upload bukti. Berjalan di Raspberry Pi dan dibuka publik lewat Cloudflare Tunnel.</p>
                             <div class="project-highlights">
@@ -242,9 +250,13 @@
                         </div>
                     </article>
 
-                    <article class="project-card featured-project">
-                        <div class="project-media project-screenshot"><img src="assets/projects/wbr-preview.png" alt="Tangkapan layar aplikasi Warung Bu Rizky" loading="lazy"></div>
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/warung-bu-rizky</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>LIVE</span>
+                        </div>
                         <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#website</span></div>
                             <h3>warung bu rizky</h3>
                             <p>Aplikasi manajemen warung untuk mengelola produk, kategori, hutang pelanggan, daftar belanja stok, dan akun pengguna. Sistem berjalan di Raspberry Pi dengan database SQLite dan dipublikasikan lewat Cloudflare Tunnel di domain WBR.</p>
                             <div class="project-highlights">
@@ -273,26 +285,100 @@
                         </div>
                     </article>
 
-                                        <article class="project-card featured-project">
-                        <div class="project-media project-screenshot"><img src="assets/projects/agentdudul-preview.png" alt="Tangkapan layar landing page Agent Dudul" loading="lazy"></div>
-                        <div class="project-content"><h3>landing page agent dudul</h3><p>Landing page publik untuk Agent Dudul, portal fitur web yang menghubungkan layanan dan alat digitalnya melalui domain agentdudul.my.id.</p><div class="tag-list"><span>Landing Page</span><span>Raspberry Pi</span><span>Cloudflare Tunnel</span></div><div class="project-links"><a href="https://agentdudul.my.id/" target="_blank" rel="noreferrer"><span>Lihat Website</span><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://agentdudul.my.id/teks-lagu" target="_blank" rel="noreferrer"><span>Fitur Lirik Bergerak</span><i class="fas fa-music" aria-hidden="true"></i></a><a href="https://github.com/frengky21/agentdudul-main" target="_blank" rel="noreferrer"><span>Repo GitHub</span><i class="fab fa-github" aria-hidden="true"></i></a></div></div>
-                    </article>
-
-                    <article class="project-card featured-project">
-                        <div class="project-media project-screenshot"><img src="assets/projects/dashboard-preview.png" alt="Tangkapan layar halaman login dashboard Agent Dudul" loading="lazy"></div>
-                        <div class="project-content"><h3>dashboard agent dudul</h3><p>Panel internal untuk memantau ekosistem Agent Dudul, status server, catatan operasional, dan kebutuhan administrasi harian melalui dashboard.agentdudul.my.id.</p><div class="tag-list"><span>Dashboard</span><span>Server Lokal</span><span>Cloudflare Tunnel</span></div><div class="project-links"><a href="https://dashboard.agentdudul.my.id/" target="_blank" rel="noreferrer"><span>Lihat Website</span><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/frengky21/dashboard-agentdudul" target="_blank" rel="noreferrer"><span>Repo GitHub</span><i class="fab fa-github" aria-hidden="true"></i></a></div></div>
-                    </article>
-
-                    <article class="project-card featured-project">
-                        <div class="project-media project-screenshot"><img src="assets/projects/eventcosbali-preview.png" alt="Tangkapan layar website Eventcosbali" loading="lazy"></div>
-                        <div class="project-content"><h3>eventcosbali</h3><p>Platform event Bali dengan website publik dan panel pengelola terpisah. Deployment berjalan di Raspberry Pi memakai subdomain eventcosbali.agentdudul.my.id dan kelola-eventcosbali.agentdudul.my.id.</p><div class="tag-list"><span>Next.js</span><span>Event Platform</span><span>Raspberry Pi</span></div><div class="project-links"><a href="https://eventcosbali.agentdudul.my.id/" target="_blank" rel="noreferrer"><span>Lihat Website</span><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a><a href="https://github.com/frengky21/eventcosbali" target="_blank" rel="noreferrer"><span>Repo GitHub</span><i class="fab fa-github" aria-hidden="true"></i></a></div></div>
-                    </article>
-
-                    <article class="project-card featured-project">
-                        <div class="project-media project-icon-card"><i class="fas fa-wifi" aria-hidden="true"></i></div>
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/agentdudul-main</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>LIVE</span>
+                        </div>
                         <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#ai</span> <span class="cat-tag">#website</span></div>
+                            <h3>landing page agent dudul</h3>
+                            <p>Landing page publik untuk Agent Dudul, portal fitur web yang menghubungkan layanan dan alat digitalnya melalui domain agentdudul.my.id.</p>
+                            <div class="tag-list">
+                                <span>Landing Page</span>
+                                <span>Raspberry Pi</span>
+                                <span>Cloudflare Tunnel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://agentdudul.my.id/" target="_blank" rel="noreferrer">
+                                    <span>Lihat Website</span>
+                                    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://agentdudul.my.id/teks-lagu" target="_blank" rel="noreferrer">
+                                    <span>Fitur Lirik Bergerak</span>
+                                    <i class="fas fa-music" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://github.com/frengky21/agentdudul-main" target="_blank" rel="noreferrer">
+                                    <span>Repo GitHub</span>
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/dashboard-agentdudul</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>LIVE</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#ai</span> <span class="cat-tag">#jaringan</span></div>
+                            <h3>dashboard agent dudul</h3>
+                            <p>Panel internal untuk memantau ekosistem Agent Dudul, status server, catatan operasional, dan kebutuhan administrasi harian melalui dashboard.agentdudul.my.id.</p>
+                            <div class="tag-list">
+                                <span>Dashboard</span>
+                                <span>Server Lokal</span>
+                                <span>Cloudflare Tunnel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dashboard.agentdudul.my.id/" target="_blank" rel="noreferrer">
+                                    <span>Lihat Website</span>
+                                    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://github.com/frengky21/dashboard-agentdudul" target="_blank" rel="noreferrer">
+                                    <span>Repo GitHub</span>
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/eventcosbali</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>LIVE</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#website</span></div>
+                            <h3>eventcosbali</h3>
+                            <p>Platform event Bali dengan website publik dan panel pengelola terpisah. Deployment berjalan di Raspberry Pi memakai subdomain eventcosbali.agentdudul.my.id dan kelola-eventcosbali.agentdudul.my.id.</p>
+                            <div class="tag-list">
+                                <span>Next.js</span>
+                                <span>Event Platform</span>
+                                <span>Raspberry Pi</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://eventcosbali.agentdudul.my.id/" target="_blank" rel="noreferrer">
+                                    <span>Lihat Website</span>
+                                    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://github.com/frengky21/eventcosbali" target="_blank" rel="noreferrer">
+                                    <span>Repo GitHub</span>
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/situs-warung</span>
+                            <span class="project-status is-archived"><i class="fas fa-circle" aria-hidden="true"></i>ARCHIVED</span>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#jaringan</span></div>
                             <h3>hotspot internet usaha</h3>
-                            <p>Halaman hotspot trial di MikroTik yang menampilkan profil usaha Warung Bu Rizky saat pelanggan masuk ke jaringan internet.</p>
+                            <p>Halaman hotspot trial di MikroTik yang menampilkan profil usaha Warung Bu Rizky saat pelanggan masuk ke jaringan internet. Sudah tidak berjalan; kode tersimpan sebagai arsip.</p>
                             <div class="tag-list">
                                 <span>MikroTik</span>
                                 <span>Hotspot Portal</span>
@@ -307,9 +393,13 @@
                         </div>
                     </article>
 
-                    <article class="project-card featured-project">
-                        <div class="project-media project-icon-card"><i class="fas fa-palette" aria-hidden="true"></i></div>
+                    <article class="project-card">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/ekaporto</span>
+                            <span class="project-status is-api"><i class="fas fa-circle" aria-hidden="true"></i>API</span>
+                        </div>
                         <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#website</span></div>
                             <h3>ekaporto</h3>
                             <p>Website portofolio kreatif untuk menampilkan karya Eka dalam galeri visual yang rapi dan responsif. Data karya terhubung ke API kelola-ekaporto, sehingga perubahan dari panel admin dapat langsung ditampilkan kepada pengunjung.</p>
                             <div class="project-highlights">
@@ -337,9 +427,23 @@
                         </div>
                     </article>
 
-                    <article class="project-card featured-project ai-agent-project">
-                        <div class="project-media project-icon-card ai-agent-icon-card"><i class="fas fa-brain" aria-hidden="true"></i></div>
+                    <article class="project-card ai-agent-project">
+                        <div class="project-head">
+                            <span class="project-path mono">~/projects/openclaw-ai-network</span>
+                            <span class="project-status is-live"><i class="fas fa-circle" aria-hidden="true"></i>ACTIVE</span>
+                        </div>
+                        <div class="ai-agent-shots">
+                            <a href="assets/projects/ai-agent-whatsapp-laptop.jpg" target="_blank" rel="noreferrer">
+                                <img src="assets/projects/ai-agent-whatsapp-laptop.jpg" alt="AI Agent lewat WhatsApp di laptop" loading="lazy">
+                                <span>WhatsApp AI</span>
+                            </a>
+                            <a href="assets/projects/ai-agent-telegram-pc.jpg" target="_blank" rel="noreferrer">
+                                <img src="assets/projects/ai-agent-telegram-pc.jpg" alt="AI Agent lewat Telegram di PC" loading="lazy">
+                                <span>Telegram AI</span>
+                            </a>
+                        </div>
                         <div class="project-content">
+                            <div class="project-cats"><span class="cat-tag">#ai</span> <span class="cat-tag">#jaringan</span></div>
                             <h3>ai agent development</h3>
                             <p>Ekosistem AI automation pribadi berbasis OpenClaw untuk membantu chat, troubleshooting, pengelolaan server, GitHub backup, dan pekerjaan teknis lintas perangkat sokai-white, sokai-black, dan sokai-gray.</p>
                             <div class="project-highlights">
@@ -360,14 +464,6 @@
                                 <span>Multi-device</span>
                             </div>
                             <div class="project-links">
-                                <a href="assets/projects/ai-agent-whatsapp-laptop.jpg" target="_blank" rel="noreferrer">
-                                    <span>Lihat WhatsApp AI</span>
-                                    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                                </a>
-                                <a href="assets/projects/ai-agent-telegram-pc.jpg" target="_blank" rel="noreferrer">
-                                    <span>Lihat Telegram AI</span>
-                                    <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                                </a>
                                 <a href="https://github.com/frengky21/portofolio/tree/main/projects/openclaw-ai-network" target="_blank" rel="noreferrer">
                                     <span>Dokumentasi</span>
                                     <i class="fab fa-github" aria-hidden="true"></i>
@@ -375,7 +471,6 @@
                             </div>
                         </div>
                     </article>
-
                 </div>
             </div>
         </section>
@@ -383,7 +478,7 @@
         <section id="contact" class="contact">
             <div class="container">
                 <div class="section-header">
-                    <p class="eyebrow">Contact</p>
+                    <p class="eyebrow">contact</p>
                     <h2>Hubungi Saya</h2>
                 </div>
 
@@ -422,7 +517,7 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; <span id="year"></span> Dudul</p>
+            <p>&copy; <span id="year"></span> dudul --version</p>
             <a href="#home" class="back-to-top" aria-label="Kembali ke atas">
                 <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </a>
