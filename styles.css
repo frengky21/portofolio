@@ -1134,46 +1134,22 @@ section {
 
 
 
-.content-inline {
-    margin-top: 1.5rem;
-    padding: 1.25rem;
-    border-radius: 8px;
-    background:
-        linear-gradient(145deg, rgba(23, 35, 29, 0.86), rgba(36, 48, 34, 0.68)),
-        rgba(32, 39, 31, 0.72);
-    border: 1px solid rgba(247, 242, 231, 0.1);
-}
-
-.content-inline h4 {
-    margin: 0 0 0.65rem;
-    font-size: 1.05rem;
-    color: var(--text);
-}
-
-.content-inline p {
-    margin-bottom: 1rem;
+.content-inline-note {
+    margin-top: 1.25rem;
     color: var(--muted);
-}
-
-.content-inline-grid {
+    font-size: 0.92rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.65rem;
-}
-
-.content-inline-grid span {
-    display: inline-flex;
+    gap: 0.5rem;
     align-items: center;
-    gap: 0.45rem;
-    padding: 0.55rem 0.78rem;
-    border-radius: 999px;
-    color: var(--text);
-    background: rgba(10, 15, 13, 0.58);
-    border: 1px solid rgba(247, 242, 231, 0.1);
-    font-size: 0.88rem;
-    font-weight: 800;
 }
 
-.content-inline-grid i {
-    color: var(--cyan);
+.content-inline-note a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-inline-note a:hover {
+    text-decoration: underline;
 }
