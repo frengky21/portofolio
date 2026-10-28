@@ -252,3 +252,7 @@ Terima kasih telah mengunjungi portfolio saya! Jangan lupa untuk follow social m
 
 **Version**: 1.0.0  
 **Last Updated**: 2024
+
+## Repository source and recovery boundaries
+
+See [the reviewed source map](SOURCE_MAP.md) for snapshot scope, deployment uncertainty and restore boundaries. Documentation only; no deployment or repository restructuring is authorized.
